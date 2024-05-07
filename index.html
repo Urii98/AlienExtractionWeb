@@ -2,12 +2,96 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Alien: Extraction</title>
+    <title>Alien: Extraction - Home</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/levels.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Bienvenidos a Alien: Extraction</h1>
-    <p>¡Prepárate para la aventura!</p>
+    <!-- Menú de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="kave-btn"><span class="kave-line"></span>Home</a></li>
+                <li><a href="about.html" class="kave-btn"><span class="kave-line"></span>About Us</a></li>
+                <li><a href="engine.html" class="kave-btn"><span class="kave-line"></span>Engine</a></li>
+                <li><a href="gallery.html" class="kave-btn"><span class="kave-line"></span>Gallery</a></li>
+                <li><a href="postmortem.html" class="kave-btn"><span class="kave-line"></span>Postmortem</a></li>
+                <li><a href="https://github.com/usuario/repositorio" class="kave-btn"><span class="kave-line"></span>Download</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <canvas id="c"></canvas> -->
+    
+
+    <!-- Sección principal -->
+    <section id="home" data-aos="fade-up">
+        <h1>Alien: Extraction</h1>
+        <p>Prepárate para una aventura en la que te enfrentarás a criaturas alienígenas...</p>
+    </section>
+
+    <section class="scifi-nav">
+        <ul class="scifi-nav__system">
+            <li class="scifi-nav__orbit">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Mission</span>
+                    <span class="scifi-nav__description">Difficulty level 5</span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Countdown</span>
+                    <span class="scifi-nav__description">Difficulty level 7</span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Hypersleep</span>
+                    <span class="scifi-nav__description">Difficulty level 4</span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Cruise</span>
+                    <span class="scifi-nav__description">Difficulty level 3</span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Landing</span>
+                    <span class="scifi-nav__description">Difficulty level 6</span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Research</span>
+                    <span class="scifi-nav__description">Difficulty level 8</span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Sample</span>
+                    <span class="scifi-nav__description">Difficulty level 9</span>
+                </a>
+            </li>
+        </ul>
+        <div class="hologram"></div>
+    </section>
+    
+
+    <footer>
+        <p class="glow">produced by</p>
+        <h1 class="glow">
+            <a href="https://twitter.com/AlienExtraction">CLAPCOM Studios</a>
+        </h1>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <script src="scripts.js"></script>
 </body>
 </html>

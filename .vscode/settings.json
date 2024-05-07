@@ -1,0 +1,14 @@
+{
+    "emmet.preferences": {
+        // Puedes dejar esta sección vacía si no tienes preferencias específicas
+    },
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",          // Formato de salida CSS, puede ser "compressed", "expanded", etc.
+            "extensionName": ".css",       // Extensión del archivo generado
+            "savePath": "/css"             // Ruta donde se guardarán los archivos CSS
+        }
+    ],
+    "liveSassCompile.settings.generateMap": true,  // Genera los mapas de origen para depuración
+    "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions", "Firefox ESR"]  // Añade prefijos para compatibilidad
+}
